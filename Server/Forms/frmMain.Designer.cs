@@ -80,7 +80,7 @@ namespace Nova.Forms
             this.ctxtSystem,
             this.ctxtSurveillance});
             this.ctxtMenu.Name = "ctxtMenu";
-            this.ctxtMenu.Size = new System.Drawing.Size(283, 180);
+            this.ctxtMenu.Size = new System.Drawing.Size(240, 142);
             // 
             // ctxtConnection
             // 
@@ -91,14 +91,14 @@ namespace Nova.Forms
             this.ctxtUninstall});
             this.ctxtConnection.Image = ((System.Drawing.Image)(resources.GetObject("ctxtConnection.Image")));
             this.ctxtConnection.Name = "ctxtConnection";
-            this.ctxtConnection.Size = new System.Drawing.Size(282, 46);
+            this.ctxtConnection.Size = new System.Drawing.Size(239, 46);
             this.ctxtConnection.Text = "建立通讯";
             // 
             // ctxtUpdate
             // 
             this.ctxtUpdate.Image = ((System.Drawing.Image)(resources.GetObject("ctxtUpdate.Image")));
             this.ctxtUpdate.Name = "ctxtUpdate";
-            this.ctxtUpdate.Size = new System.Drawing.Size(315, 48);
+            this.ctxtUpdate.Size = new System.Drawing.Size(263, 48);
             this.ctxtUpdate.Text = "更新程序";
             this.ctxtUpdate.Click += new System.EventHandler(this.ctxtUpdate_Click);
             // 
@@ -106,7 +106,7 @@ namespace Nova.Forms
             // 
             this.ctxtReconnect.Image = ((System.Drawing.Image)(resources.GetObject("ctxtReconnect.Image")));
             this.ctxtReconnect.Name = "ctxtReconnect";
-            this.ctxtReconnect.Size = new System.Drawing.Size(315, 48);
+            this.ctxtReconnect.Size = new System.Drawing.Size(263, 48);
             this.ctxtReconnect.Text = "重新连接";
             this.ctxtReconnect.Click += new System.EventHandler(this.ctxtReconnect_Click);
             // 
@@ -114,7 +114,7 @@ namespace Nova.Forms
             // 
             this.ctxtDisconnect.Image = ((System.Drawing.Image)(resources.GetObject("ctxtDisconnect.Image")));
             this.ctxtDisconnect.Name = "ctxtDisconnect";
-            this.ctxtDisconnect.Size = new System.Drawing.Size(315, 48);
+            this.ctxtDisconnect.Size = new System.Drawing.Size(263, 48);
             this.ctxtDisconnect.Text = "断开连接";
             this.ctxtDisconnect.Click += new System.EventHandler(this.ctxtDisconnect_Click);
             // 
@@ -122,7 +122,7 @@ namespace Nova.Forms
             // 
             this.ctxtUninstall.Image = ((System.Drawing.Image)(resources.GetObject("ctxtUninstall.Image")));
             this.ctxtUninstall.Name = "ctxtUninstall";
-            this.ctxtUninstall.Size = new System.Drawing.Size(315, 48);
+            this.ctxtUninstall.Size = new System.Drawing.Size(263, 48);
             this.ctxtUninstall.Text = "卸载程序";
             this.ctxtUninstall.Click += new System.EventHandler(this.ctxtUninstall_Click);
             // 
@@ -137,7 +137,7 @@ namespace Nova.Forms
             this.ctxtActions});
             this.ctxtSystem.Image = ((System.Drawing.Image)(resources.GetObject("ctxtSystem.Image")));
             this.ctxtSystem.Name = "ctxtSystem";
-            this.ctxtSystem.Size = new System.Drawing.Size(282, 46);
+            this.ctxtSystem.Size = new System.Drawing.Size(239, 46);
             this.ctxtSystem.Text = "系统运维 ";
             // 
             // ctxtSystemInformation
@@ -218,7 +218,7 @@ namespace Nova.Forms
             this.ctxtRemoteDesktop});
             this.ctxtSurveillance.Image = ((System.Drawing.Image)(resources.GetObject("ctxtSurveillance.Image")));
             this.ctxtSurveillance.Name = "ctxtSurveillance";
-            this.ctxtSurveillance.Size = new System.Drawing.Size(282, 46);
+            this.ctxtSurveillance.Size = new System.Drawing.Size(239, 46);
             this.ctxtSurveillance.Text = "远程帮助";
             // 
             // ctxtRemoteDesktop
@@ -593,6 +593,7 @@ namespace Nova.Forms
             // 
             this.menuBuilder.Index = 2;
             this.menuBuilder.Text = "构建";
+            this.menuBuilder.Click += new System.EventHandler(this.menuBuilder_Click);
             // 
             // menuStatistics
             // 

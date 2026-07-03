@@ -116,7 +116,6 @@ namespace Nova
                 catch (Exception ex)
                 {
                     SLogger.Warning(ex.ToString());
-                    Send(new UnknownPacket());
                 }
             }
         }
@@ -195,7 +194,6 @@ namespace Nova
                 catch (Exception ex)
                 {
                     SLogger.Error(ex.ToString());
-                    return;
                 }
             }
         }

@@ -81,6 +81,12 @@
     <Compile Include="Controls\MainMenuEx.Designer.cs">
       <DependentUpon>MainMenuEx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBuilder.Designer.cs">
+      <DependentUpon>frmBuilder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nova\Client.cs" />
     <Compile Include="Nova\Commands\CHandler.cs" />
     <Compile Include="Nova\Misc\InputBox.cs" />
@@ -160,6 +166,9 @@
     <Compile Include="Settings\Settings.cs" />
     <EmbeddedResource Include="Forms\frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBuilder.resx">
+      <DependentUpon>frmBuilder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFileManager.resx">
       <DependentUpon>frmFileManager.cs</DependentUpon>

@@ -86,6 +86,7 @@ namespace Nova.Common.Helper
         }
 
         // 记录错误信息
+        [Conditional("DEBUG")]
         public static void Error(
             string message,
             [CallerMemberName] string memberName = "",
@@ -96,6 +97,7 @@ namespace Nova.Common.Helper
         }
 
         // 记录异常信息
+        [Conditional("DEBUG")]
         public static void Error(
             Exception ex,
             string customMessage = "",

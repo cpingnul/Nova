@@ -360,13 +360,13 @@ namespace Nova.Forms
             }
         }
 
-        //private void menuBuilder_Click(object sender, EventArgs e)
-        //{
-        //    using (var frm = new frmBuilder())
-        //    {
-        //        frm.ShowDialog();
-        //    }
-        //}
+        private void menuBuilder_Click(object sender, EventArgs e)
+        {
+            using (var frm = new frmBuilder())
+            {
+                frm.ShowDialog();
+            }
+        }
 
         private void menuStatistics_Click(object sender, EventArgs e)
         {
