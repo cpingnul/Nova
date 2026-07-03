@@ -97,7 +97,7 @@ namespace Nova.Forms
             this.lstTasks.Location = new System.Drawing.Point(0, 0);
             this.lstTasks.Margin = new System.Windows.Forms.Padding(4);
             this.lstTasks.Name = "lstTasks";
-            this.lstTasks.Size = new System.Drawing.Size(902, 655);
+            this.lstTasks.Size = new System.Drawing.Size(757, 655);
             this.lstTasks.TabIndex = 0;
             this.lstTasks.UseCompatibleStateImageBehavior = false;
             this.lstTasks.View = System.Windows.Forms.View.Details;
@@ -116,13 +116,13 @@ namespace Nova.Forms
             // hTitle
             // 
             this.hTitle.Text = "Title";
-            this.hTitle.Width = 311;
+            this.hTitle.Width = 226;
             // 
             // frmTaskManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(902, 655);
+            this.ClientSize = new System.Drawing.Size(757, 655);
             this.Controls.Add(this.lstTasks);
             this.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

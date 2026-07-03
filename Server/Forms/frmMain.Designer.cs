@@ -233,9 +233,9 @@ namespace Nova.Forms
             this.botStrip.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.botStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.botListen});
-            this.botStrip.Location = new System.Drawing.Point(0, 765);
+            this.botStrip.Location = new System.Drawing.Point(0, 577);
             this.botStrip.Name = "botStrip";
-            this.botStrip.Size = new System.Drawing.Size(1195, 37);
+            this.botStrip.Size = new System.Drawing.Size(1192, 37);
             this.botStrip.TabIndex = 4;
             this.botStrip.Text = "statusStrip1";
             // 
@@ -522,7 +522,7 @@ namespace Nova.Forms
             this.lstClients.Location = new System.Drawing.Point(0, 0);
             this.lstClients.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstClients.Name = "lstClients";
-            this.lstClients.Size = new System.Drawing.Size(1195, 802);
+            this.lstClients.Size = new System.Drawing.Size(1192, 614);
             this.lstClients.TabIndex = 1;
             this.lstClients.UseCompatibleStateImageBehavior = false;
             this.lstClients.View = System.Windows.Forms.View.Details;
@@ -604,7 +604,7 @@ namespace Nova.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1195, 802);
+            this.ClientSize = new System.Drawing.Size(1192, 614);
             this.Controls.Add(this.botStrip);
             this.Controls.Add(this.lstClients);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
