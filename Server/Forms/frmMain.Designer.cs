@@ -57,7 +57,6 @@ namespace Nova.Forms
             this.hIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hSocket = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hVersion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.hCountry = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hOS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hAccountType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mainMenu = new Nova.Controls.MainMenuEx();
@@ -236,7 +235,7 @@ namespace Nova.Forms
             this.botListen});
             this.botStrip.Location = new System.Drawing.Point(0, 765);
             this.botStrip.Name = "botStrip";
-            this.botStrip.Size = new System.Drawing.Size(1300, 37);
+            this.botStrip.Size = new System.Drawing.Size(1195, 37);
             this.botStrip.TabIndex = 4;
             this.botStrip.Text = "statusStrip1";
             // 
@@ -512,7 +511,6 @@ namespace Nova.Forms
             this.hIP,
             this.hSocket,
             this.hVersion,
-            this.hCountry,
             this.hOS,
             this.hAccountType});
             this.lstClients.ContextMenuStrip = this.ctxtMenu;
@@ -524,7 +522,7 @@ namespace Nova.Forms
             this.lstClients.Location = new System.Drawing.Point(0, 0);
             this.lstClients.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstClients.Name = "lstClients";
-            this.lstClients.Size = new System.Drawing.Size(1300, 802);
+            this.lstClients.Size = new System.Drawing.Size(1195, 802);
             this.lstClients.TabIndex = 1;
             this.lstClients.UseCompatibleStateImageBehavior = false;
             this.lstClients.View = System.Windows.Forms.View.Details;
@@ -545,11 +543,6 @@ namespace Nova.Forms
             // 
             this.hVersion.Text = "版本";
             this.hVersion.Width = 141;
-            // 
-            // hCountry
-            // 
-            this.hCountry.Text = "国家";
-            this.hCountry.Width = 138;
             // 
             // hOS
             // 
@@ -611,13 +604,14 @@ namespace Nova.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 802);
+            this.ClientSize = new System.Drawing.Size(1195, 802);
             this.Controls.Add(this.botStrip);
             this.Controls.Add(this.lstClients);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Menu = this.mainMenu;
             this.MinimumSize = new System.Drawing.Size(1172, 678);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -646,7 +640,6 @@ namespace Nova.Forms
         private System.Windows.Forms.ColumnHeader hIP;
         private System.Windows.Forms.ColumnHeader hSocket;
         private System.Windows.Forms.ColumnHeader hVersion;
-        private System.Windows.Forms.ColumnHeader hCountry;
         private System.Windows.Forms.ColumnHeader hOS;
         private System.Windows.Forms.ColumnHeader hAccountType;
         public System.Windows.Forms.NotifyIcon nIcon;

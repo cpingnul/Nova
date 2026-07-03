@@ -37,7 +37,7 @@ namespace Nova.Commands
                     string country = string.Format("{0} [{1}]", client.Value.Country, client.Value.CountryCode);
 
                     // this " " leaves some space between the flag-icon and the IP
-                    ListViewItem lvi = new ListViewItem(new string[] { " " + client.EndPoint.Address.ToString(), client.EndPoint.Port.ToString(), client.Value.Version, country, client.Value.OperatingSystem, client.Value.AccountType });
+                    ListViewItem lvi = new ListViewItem(new string[] { " " + client.EndPoint.Address.ToString(), client.EndPoint.Port.ToString(), client.Value.Version, client.Value.OperatingSystem, client.Value.AccountType });
                     //存储标志
                     lvi.Tag = client;
                     lvi.ImageIndex = packet.ImageIndex;
